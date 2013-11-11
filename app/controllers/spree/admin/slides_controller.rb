@@ -4,5 +4,4 @@ class Spree::Admin::SlidesController < Spree::Admin::ResourceController
   def index
     @slides = Spree::Slide.all
   end
-
 end

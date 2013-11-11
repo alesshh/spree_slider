@@ -1,0 +1,27 @@
+pt-BR:
+  next: "Próximo"
+  previous: "Anterior"
+  name: "Nome"
+  body: "Body"
+  product: "Produto"
+  link_url: "Link URL"
+  image: "Imagem"
+  image_file_name: "Arquivo"
+  published: "Publicado"
+  position: "Posição"
+  y: "Sim"
+  n: "Não"
+
+  activerecord:
+    models:
+      spree/slide: "Slide"
+
+  spree_slider:
+    config_name: "Spree Slider"
+    config_description: "Manage Spree Slider contents"
+    title: "Slides"
+    new_slide: "Novo Slide"
+    editing_slide: "Editando Slide"
+    placeholder_name: "Deixe em branco para usar o nome do produto"
+    placeholder_link_url: "Deixe em branco para usar a url do produto"
+    image_tip: "Por padrão, a primeira imagem do produto"
