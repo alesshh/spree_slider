@@ -4,7 +4,11 @@ class Spree::Slide < ActiveRecord::Base
   include Spree::Core::S3Support
   supports_s3 :image
 
+<<<<<<< HEAD
   scope :published, lambda { where(:published => true) }
+=======
+  scope :published, where(:published => true)
+>>>>>>> d8bbb3fc2b4b14f2951bd1abffd547c65a64445e
 
   belongs_to :product
 
